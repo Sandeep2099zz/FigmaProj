@@ -1,0 +1,1401 @@
+@media screen and (max-width:1100px)
+{
+  .htmltagimage {margin-left: 200px!important;}
+}
+
+.p-10
+{
+  padding: 10px;
+  text-transform: none;
+text-align: right;
+}
+<!-------------- Four boxes RWD---------->
+
+a{
+text-transform: none;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnFour {
+    float: left;
+    width: 20%;
+    padding: 2px;
+  }
+  
+  /* Clear floats after the columns */
+  .rowFour:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  @media screen and (max-width: 992px) {
+    .columnFour {
+      width: 50%;
+    }
+    .graduation{margin-left:282px;}
+
+  }
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .columnFour {
+      width: 100%;
+    }
+  }
+
+  <!-------------- Four boxes RWD---------->
+
+  *
+  {
+    font-family: verdana;
+  }
+  #bluecolor
+  {
+    background-color: blue;
+  }
+
+  .imagesLogo
+{
+    width:30px;
+    height:30px;
+}
+
+.bluebackground 
+{
+    width:100%;
+    height: 280px;
+    background-color: blue;
+    font-size: 16px;
+}
+
+.newsletter
+{
+    width:80%;
+    height:350px;
+border : 1px solid black;
+box-shadow: 2px 2px;
+margin-left: 100px;
+}
+
+
+<!-------------- Two boxes RWD---------->
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Create four equal columns that floats next to each other */
+  .columnTwo {
+    float: left;
+    width: 40%;
+    padding: 2px;
+    /* border: 2px solid black; */
+  }
+  
+  /* Clear floats after the columns */
+  .rowTwo:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* On screens that are 992px wide or less, go from four columns to two columns */
+  /* @media screen and (max-width: 1100px) {
+    .columnTwo {
+      width: 50%;
+    }
+  } */
+  
+  /* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 1100px) {
+    .columnTwo {
+      width: 100%;
+    }
+  }
+
+  <!-------------- Two boxes RWD ends ---------->
+
+
+  .container{
+    height :300px;
+    width:300px;
+    background-color:aqua
+    
+    }
+    
+    button {
+
+      border-radius: 10px;
+      padding-top:10px;
+      padding-bottom: 10px;
+    }
+
+    <--------- Form begins ---------->
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .column1 {
+      float: left;
+      width: 55%;
+      padding: 10px;
+      height: 500px; /* Should be removed. Only for demonstration */
+      /* background-color: brown; */
+    }
+    
+    .column2 {
+      float: left;
+      width: 40%;
+      padding: 10px;
+      height: 500px; /* Should be removed. Only for demonstration */
+      /* background-color: aqua; */
+
+    }
+    
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .column1 {        width: 100%;        margin-left: -150px;      }
+    .meetingimage{transform: scale(0.75);margin-left: 431px;}
+    .wrapperStats{margin-top: 536px !important;}
+    .letterimg{width: 100%!important;}
+    .jeetboxquote{width:98%!important;}
+    }
+
+
+/* Tablet RWD */
+      @media screen and (max-width: 1100px) and (min-width:600px){
+        .bulbimage{margin-left: -150px;}
+  .htmltagimage{margin-left: 200px;}
+.graduation{  margin-top: 420px;  margin-left: 200px;}
+  }
+
+      .column2 {
+        width: 100%;
+        margin-top: 130px;
+      }
+      .maxwidth500{
+        margin-left: -179px !important;
+        max-width: 200px !important;
+      }
+      .viewAllButton{
+        margin-left: 100px;
+      }
+
+      .newsletterdiv{
+        margin-left: 10px;
+      }
+
+      .rowFooterThree {
+        margin-left: -145px;
+      }
+      body
+      {
+        margin-right: 10px;
+      }
+    }
+    
+
+    .textwidth
+    {
+      width:60%;
+      height:40px;
+      border-radius: 10px;
+    }
+
+
+    /* interview  */
+    
+    .interview{
+width: 500px;
+height: 400px;
+border:2px solid lightgray;
+font-family: verdana;
+font-size: 14px;
+padding-left:30px;
+margin-left: 80px;
+
+    }
+
+    .secondcard {
+      width:200px;
+      height:150px;
+      border: 2px solid black;
+    }
+
+
+    /* blogs begin */
+    * {
+      box-sizing: border-box;
+    }
+    
+    /* Create four equal columns that floats next to each other */
+    .columnBlog1 {
+      float: left;
+      width: 50%;
+      padding: 10px;
+      height:500px; /* Should be removed. Only for demonstration */
+    }
+    .columnBlog2 {
+      float: left;
+      width: 50%;
+      padding: 30px;
+      height: 800px; /* Should be removed. Only for demonstration */
+    }
+       
+    
+    /* Clear floats after the columns */
+    .rowBlog:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+    
+    @media screen and (max-width: 1100px) {
+      .columnBlog1{width:50%; margin-top: 190px;}
+      .interview{margin-left:140px;}
+      .columnBlog2{width:50%;margin-top: 180px;}
+    
+    }
+    
+
+    /* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 600px) {
+      .columnBlog1 {
+        width: 100%;
+        height: 646px;
+      }
+    
+  .columnBlog2 {
+          width: 100%;
+          margin-left: -50px;
+          margin-top: -425px;
+      }
+      .rowblog
+      {
+        margin-top: 1250px;
+
+      }
+      .interview
+      {
+        margin-left:0px;
+        width:350px;
+        height:200px;
+      }
+    }
+
+    /* blogs end */
+
+    /* students say  */
+
+    .boxquote{
+width:420px;
+height: 260px;
+border: 4px solid blue;
+border-radius: 10px;
+padding-left: 10px;
+
+    }
+
+    .checked {
+      color: orange;
+    }
+
+
+    /* top companies logo */
+
+    .logo{
+      width: 100px;
+      height: 80px;
+      margin-left:80px;
+    }
+
+
+    .course
+    {
+      height:350px;
+      width:350px;
+      border:2px solid white; 
+      font-size: 12px;
+    }
+
+
+    /* TopNav */
+
+    body {
+      margin: 0;
+      font-family: verdana;
+    }
+    
+    .topnav {
+      overflow: hidden;
+      background-color: #333;
+    }
+    
+    .topnav a {
+      float: left;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+    }
+    
+    .topnav a:hover {
+      background-color: #ddd;
+      border:1px solid blue;
+      color: black;
+    }
+    
+    .topnav a.active {
+      background-color: #04AA6D;
+      color: white;
+    }
+    
+    .topnav-right {
+      float: right;
+    }
+
+    /* Top Nav ends */
+
+
+    /* Icons in textbar */
+    * {box-sizing: border-box;}
+
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 100%;
+  /* margin-bottom: 15px; */
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+/* Icons in textbar ends */
+
+
+/* display flex */
+
+.flex-container {
+  display: flex;
+  /* background-color: DodgerBlue; */
+}
+
+.flex-container > div {
+  /* background-color: #f1f1f1; */
+  margin: 10px;
+  padding: 20px;
+  font-size: 13px;
+  margin-top: 260px;
+}
+
+/* display flex ends  */
+
+/* flex-container 50-50 */
+
+* {
+  box-sizing: border-box;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30px;
+  /* text-align: center; */
+  /* padding:30px; */
+  margin-top:-245px;
+}
+
+.flex-item-left {
+  /* background-color: #f1f1f1; */
+  /* padding: 10px; */
+  flex: 50%;
+}
+
+.flex-item-right {
+  /* background-color: dodgerblue; */
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media screen and (max-width: 1100px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  }
+}
+
+/* flex ends  */
+
+
+.syntaxLogo
+{
+  width:340px;
+  height: 60px;
+  padding-left:100px;
+}
+
+.syntaxButton
+{
+  background-color: blue;
+  color:white;
+  padding-left:20px;
+  padding-right:20px;
+  padding-top:15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
+}
+
+.title
+{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.learnMore
+{
+  background-color:blue;
+  color:white;
+  padding-left:25px;
+  padding-right: 25px;
+  padding-top:5px;
+  padding-bottom:5px;
+  border-radius: 10px;
+  font-size:20px;
+}
+
+.graduation
+{
+  width:40px;
+  height:40px;
+  float:left;
+  margin-top: 500px;
+}
+
+.htmltagimage
+{
+  width:40px;height:40px;
+  margin-left:-400px;
+}
+
+.bulbimage
+{
+  width:80px;height:80px;float: right;
+  
+}
+
+.meetingimage
+{
+  float:right;width:500px;height:500px;border-radius: 50%;margin-right: 100px;
+}
+
+.popularcategory
+{
+  text-align: center;
+  /* margin-top: 600px; */
+}
+
+.rowtwoclass
+{
+  display: inline-flex;
+  justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
+  gap:120px;
+}
+
+.categoryImage
+{
+  width:100px;height: 150px;
+}
+
+.categoryButton
+{
+  background-color: blue;
+  color:white;
+  margin-left:560px;
+  padding-left:60px;
+  padding-right: 60px;
+  align-items: center;
+}
+
+
+.popularcoursesDiv
+{
+  display: inline-flex;
+  justify-content: space-evenly;
+  display: flex;
+justify-content: center;
+gap:50px; 
+margin-left: 20px;
+}
+
+.coursecard1
+{
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px lightgray;
+}
+
+.uiimage
+{
+  width: 100%;
+  height: 150px;
+}
+
+.uitext
+{
+  font-family: verdana;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.uireadmore
+{
+  float: right;
+  text-decoration: none;
+}
+
+.coursecard2
+{
+  border: 1px solid lightgray;
+  box-shadow: 2px 2px lightgray;
+}
+
+.coursecardimg
+{
+  width: 100%;height: 150px;
+}
+
+.coursecard2text
+{
+  font-family: verdana;
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+.coursecardreadmore
+{
+  float: right;
+  text-decoration: none;
+}
+
+
+.coursecardButton
+{
+  background-color: blue;
+  color:white;
+  margin-left:560px; 
+  padding-left:50px;
+  padding-right:50px;
+}
+
+.studentsrowTwo
+{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 16px;
+  height: 100px;
+}
+
+.rightquoteimg
+{
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+
+
+@media screen and (max-width:600px) {
+.categoryButton {margin-left: 73px;}
+.centeralign{margin-top: 100px!important;}
+.coursecardButton{margin-left: 64px; margin-top: 105px;}
+.padding200{ margin-left: 6px!important;}
+}
+
+@media screen and (max-width: 1050px) and (min-width:600px) {
+  .padding200 , .height80 {
+        margin-left:100px !important;
+        
+  }
+  .flex-container{
+  margin-top:250px;
+  margin-left: -300px;
+  }
+
+/* .rowstats{
+  margin-left: -250px;
+} */
+.wrapperStats{padding-top: 400px;}
+/* .rowFooterFive {margin-left:150px!important;} */
+
+}
+
+.jeetboxquote
+{
+  padding: 10px;font-size: 14px;
+}
+
+.jeetimg
+{
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.jeetTitle
+{
+  float: center;
+  margin-top:-100px;
+  margin-left:160px;
+}
+
+.jeetPosition
+{
+  margin-top:-40px;margin-left:160px;
+}
+
+.jeetleftquote
+{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top:-60px;
+}
+
+.rohitleftquote
+{
+  float: right;
+  width: 40px;
+  height: 40px;
+  margin-top:-60px;
+}
+
+.rohitTitle
+{
+  margin-left:160px;
+  margin-top:-90px;
+}
+
+.rohitPosition
+{
+  margin-left:160px;
+  margin-top:-50px;
+}
+
+.interviewimg
+{
+  height:200px;width: 100%;
+}
+
+.designThinking
+{
+  width:490px;
+  border: 2px solid lightgray;
+  margin-top: -10px;
+  color:black;
+}
+
+.designThinkingTitle{
+  color:black;
+  padding-left: 20px;
+}
+
+.divDevelopment
+{
+  width:490px;
+  border: 1px solid lightgray;
+  margin-top: -300px; 
+  /* padding: 10px; */
+  padding-bottom: -50px;
+}
+
+.viewAllButton
+{
+  /* margin-left:50%; */
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: blue;
+  color:white;
+  margin-top: 0px;
+}
+
+.smallSquareDiv
+{
+  display: inline-flex; 
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.fortenthousand
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black; 
+  margin-left:150px;
+  background-color: pink;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.tencourses{
+  height: 100px;
+  width: 100px;
+  border:1px solid black; 
+  margin-left:150px;
+  background-color: aqua;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.instructor
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  margin-left:150px;
+  background-color: violet;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.stories
+{
+  height: 100px;
+  width: 100px;
+  border:1px solid black;
+  margin-left:150px;
+  background-color: peachpuff;
+  border-radius: 25% 10%;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.formbutton
+{
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 30px;
+  background-color: blue;
+  color:white;
+  border-radius: 10px;
+  margin-left:40px;
+}
+
+
+.newsletterdiv
+{
+  border:1px solid blue;
+  box-shadow: 3px 3px blue;
+  margin-top: 40px;
+}
+
+.letterimg
+{
+  width: 400px;height:345px;
+}
+
+.subscribe
+{
+  border-radius: 5px;
+  width: 400px;
+  padding-left: 50px;
+  margin-left:auto;
+}
+
+
+.buttonDiv
+{
+  align-items: center;
+  margin-left: 120px;
+}
+
+.buttoninput
+{
+  background-color: blue;
+  color:white;
+  padding:9px;
+  padding-left:15px;
+  padding-right:15px;
+  border-radius: 10px;
+}
+
+.footercolumn
+{
+  background-color:blue;
+  padding-left:30px;
+}
+
+.footerLinks
+{
+  color:white;font-size: 17px;
+}
+
+.topicfooter
+{
+  color:aqua; font-size: 20px;
+}
+
+.textblue
+{
+  color:blue;
+}
+
+#textcolorblue
+{
+color:blue;
+}
+
+.verdanaFont
+{
+  font-family: verdana;
+}
+
+.centeralign
+{
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.paddingten
+{
+  padding-left: 10px;
+}
+
+.padding250
+{
+  margin-left: 250px;
+}
+
+.padding200
+{
+  margin-left: 200px;
+}
+
+.height80
+{
+  height: 80px;
+}
+
+.marginleft130
+{
+  margin-left: 130px;
+}
+
+.bgcolorbrown 
+{
+  background-color: brown;
+  padding:10px;
+}
+
+.textdeconone
+{
+  text-decoration: none;
+  padding-left:-50px;
+}
+
+.padding300
+{
+  padding-left: 300px;
+}
+
+.bgcolorviolet
+{
+  background-color: blueviolet;
+}
+
+
+.floatleft
+{
+  float:left;
+}
+
+.paddingtop5
+{
+  padding-top:-5px;
+}
+
+.paddingleft275
+{
+  padding-left: 275px;
+}
+
+.bgcoloraqua
+{
+  background-color: aqua;
+}
+
+.marginleft150
+{
+  margin-left: 150px;
+}
+
+.paddingleft10second
+{
+  padding-left: 130px;
+  margin-top:-10px;
+}
+
+.paddingleft10first
+{
+  padding-left: 150px;
+  margin-top:-90px;
+
+}
+
+.marginleft190
+{
+  margin-left: 94px;
+}
+
+.fontsize16
+{
+  font-size: 16px;
+}
+
+.maxwidth500
+{
+  max-width:500px;margin:auto;
+}
+
+.colorWhite
+{
+  color: white;
+}
+
+.bgcolorblue
+{
+  background-color:blue;
+}
+
+.coloraqua 
+{
+  color:aqua;
+}
+
+.white16
+{
+  color: white;font-size: 16px;
+}
+
+.fontsize24
+{
+  font-size:24px;
+}
+
+.bldg
+{
+  width:30px;height:30px;
+}
+
+/* Two boxes facing */
+* {
+  box-sizing: border-box;
+}
+
+.flex-containerFacing {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  text-align: center;
+}
+
+.flex-item-leftFacing {
+  padding: 10px;
+  flex: 50%;
+}
+
+.flex-item-rightFacing {
+  padding: 10px;
+  flex: 50%;
+}
+
+/* Responsive layout - makes a one column-layout instead of a two-column layout */
+@media screen and (max-width: 1087px) {
+  .flex-item-rightFacing, .flex-item-leftFacing {
+    flex: 100%;
+  }
+  .graduation
+  {
+display:block;  }
+
+.designThinking {margin-left: -56px;}
+.divDevelopment {margin-left:-53px;}
+}
+
+@media screen and (max-width: 1487px) {
+  .designThinking {margin-left: -126px;}
+  .divDevelopment {margin-left:-123px;}
+  }
+
+/* Two boxes facing ends  */
+
+@media screen and (max-width: 1000px) and (min-width:600px){
+.graduation {
+  margin-top: -145px !important;
+  margin-left: 297px !important;
+}
+.columnFooterThree{margin-bottom: 20px;}
+.coursecardimg{
+  width: 100%;
+  height: 175px;
+  padding-top: 45px;
+}
+.htmltagimage{margin-left: 283px !important;}
+
+}
+/* Four cards after facing  */
+* {
+  box-sizing: border-box;
+}
+
+/* FOOTER ONE  */
+/* Create four equal columns that floats next to each other */
+.columnFooterTwo {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  text-align: center;
+  /* margin-left: 50px; */
+}
+
+/* Clear floats after the columns */
+.rowFooterTwo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnFooterTwo {
+    width: 100%;
+  }
+
+  .margin-left60
+{
+  margin-left:-60px;
+}
+
+  .designThinking
+{
+margin-top:567px;
+margin-left:0px;
+width:120%;
+}
+
+.divDevelopment{
+width:119%;
+  margin-left: 0px;
+}
+
+.blogtitle {
+  margin-left: 0px !important;
+  margin-top: 200px !important;
+}
+.subscribe {width:350px;}
+.jeetboxquote1{height:376%;width:98%!important;}
+}
+
+@media screen and (min-width: 600px) and (max-width:1400px){
+.rowStats {margin-left: -100px;} 
+}
+
+@media screen and (max-width:300px){
+.boxquote{height: 361px;}
+
+}
+
+@media screen and (min-width:1100px){
+.interview {margin-left: 31px;}
+.designThinking{margin-left:-146px;width: 446px;}
+.divDevelopment{margin-left: -151px;width: 448px;}
+}
+
+
+/* three cards  */
+/* Create four equal columns that floats next to each other */
+.columnFooterThree {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  height: 300px; /* Should be removed. Only for demonstration */
+  margin-left:120px;
+}
+
+/* Clear floats after the columns */
+.rowFooterThree:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 1150px) {
+  .columnFooterThree {
+    width: 100%;
+ padding-top:10px;
+ padding-bottom: 10px;
+  }
+}
+
+/* three cards ends */
+
+
+/* companies logos  */
+
+/* FOOTER ONE  */
+/* Create four equal columns that floats next to each other */
+.columnFooterfive {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  height: 100px; /* Should be removed. Only for demonstration */
+  margin-left:50px;
+}
+
+/* Clear floats after the columns */
+.rowFooterfive:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .columnFooterfive {
+    width: 100%;
+  }
+  .coursecard2
+  {
+    margin-top: 27px;
+  }
+  .coursecard3
+  {
+    margin-top:100px;
+  }
+  
+}
+
+
+.coursecard3
+{
+    border: 1px solid lightgray;
+    box-shadow: 2px 2px lightgray;
+}
+
+/* companies logos */
+
+/* Four stats boxes */
+/* FOOTER ONE  */
+/* Create four equal columns that floats next to each other */
+.columnStats {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  /* height: 300px; Should be removed. Only for demonstration */
+  margin-left:100px;
+}
+
+/* Clear floats after the columns */
+.rowStats:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the four columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 850px) {
+  .columnStats {
+    width: 100%;
+    margin-left: -100px;
+  }
+}
+
+
+@media screen and (max-width: 1100px) {
+  .wrapperStats {
+    margin-top: 0px;
+    /* margin-left: 207px; */
+    padding-left: 10px;
+  }
+
+  .maxwidth500{margin-left: -68px!important;}
+
+
+}
+
+@media screen and (min-width: 1100px) {
+.graduation{margin-top: 0px;}
+}
+
+
+@media screen and (max-width: 600px) {
+.graduation {margin-top:0px;}
+}
+
+/* Four stats boxes end */
+
+
+.wrapperStats
+{
+padding-top: -400px;
+}
+
+.jeetboxquote1
+{
+  padding: 10px;
+  font-size: 14px;
+
+}
+
+/* Tablet and Phone RWD */
+
+.columnTen {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  border:1px solid black;
+  /* margin-left:40px; */
+}
+
+/* Clear floats after the columns */
+.rowTen:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnTen  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnTen  {
+    width: 100%;
+  }
+}
+
+/* Tablet and Phone RWD Ends  */
+
+@media screen and (min-width: 1100px) and (max-width:1400px){
+.fontsize16{margin-right:-500px;margin-left:300px;}  
+}
+
+
+
+/* Tablet and Phone RWD */
+
+.columnTenStats {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  /* border:1px solid black; */
+  /* margin-left:40px; */
+}
+
+/* Clear floats after the columns */
+.rowTenStats:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnTenStats  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnTenStats  {
+    width: 100%;
+  }
+}
+
+/* Tablet and Phone RWD Ends  */
+
+/* Tablet and Phone RWD */
+
+.columnLogo {
+  float: left;
+  width: 15%;
+  padding: 10px;
+  /* border:1px solid black; */
+  /* margin-left:40px; */
+}
+
+/* Clear floats after the columns */
+.rowLogo:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+  .columnLogo  {
+    width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .columnLogo  {
+    width: 100%;
+  }
+}
+
+/* Tablet and Phone RWD Ends  */
